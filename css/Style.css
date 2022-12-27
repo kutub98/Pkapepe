@@ -1,0 +1,350 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  li,
+  i,
+  ul,
+  a,
+  h1,
+  p,
+  h3,
+  h4,
+  h5,
+  button,
+  h6,
+  span,
+  input,
+  a {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+  
+  }
+  body {
+      overflow-x: hidden;
+    }
+  .navbar {
+    background-color: white;
+  }
+  
+  .order-button{
+      border-radius: 6px;
+      background: black;
+      color: white;
+         padding: 8px 10px;
+         border:none;
+     
+  }
+  .logo {
+    width: 200px;
+    height: 100px;
+  }
+  .buttons-container{
+      justify-content: center;
+      display: flex;
+      align-items: center;
+  }
+  .buttons-container a{
+      margin: 0px 5px;
+  }
+  .navbars{
+      background: white !important;
+  }
+  .topNav {
+    margin-bottom: 170px;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px 10px;
+    background: white;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .max-w-xl {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .navbar-toggler{
+    background-color: white !important;
+    border: 1px  solid white;
+    color: white !important;
+  }
+  .navbar-toggler-icon{
+    color: white !important;
+  }
+  /* App */
+  .app {
+    margin-top: 10rem;
+  }
+  
+  .app .caption {
+    display: none;
+  }
+  
+  .app .backdrop-text {
+    z-index: 1;
+  }
+  
+  .app .AppsBox {
+    background: #e11e26 ;
+    min-height: 485px;
+    z-index: -1;
+  }
+  
+  .AppsBox .max-w-xl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  .AppsBox .imageContainer {
+    position: relative;
+    max-width: 424px;
+    min-height: 250px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .imageContainer img {
+    position: absolute;
+    width: 100%;
+    max-width: 424px;
+    z-index: 2;
+    top: -80px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content-container .sub-heading {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .content-container .text {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+  }
+  
+  .content-container .buttons-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons-container .center-svg {
+    margin: 0 1rem;
+  }
+  
+  .app {
+    margin-top: 70px;
+  }
+  
+  
+  
+  /* swiper css  */
+  .SwiperBox{
+    text-align: center;
+    margin-top: 60px;
+  }
+  .swiper {
+  width: 840px;
+  height: 420px;
+  margin: 80px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  }
+  
+  .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  }
+  
+  .swiper-slide {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  }
+  .userInformation {
+  margin: 10px auto;
+  }
+  
+  .swiper-slide img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  }
+  
+  .userInfromation {
+  margin-top: 30px;
+  position: relative;
+  }
+  .qoutaionMark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  }
+  .qoutaionMark img {
+  width: 50px;
+  height: 60px;
+  filter: brightness(98%);
+  -webkit-filter: brightness(98%);
+  }
+  .userInfromation h5,
+  .userInfromation h6 {
+  margin-top: 10px;
+  }
+  
+  
+   /* newsletter subscription  */
+  .SubscriptionBox{
+    text-align: center;
+    width: 100%;
+   height: 400px;
+   padding: 10px 0px;
+  
+  }
+  
+  .SubscriptiInform{
+    width: 100%;
+    display: flex;
+   height: 100%;
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  
+  }
+  .SubscriptionBox h1,
+  .SubscriptionBox h6{
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  .emptyBox1,
+  .emptyBox2{
+  width: 50%;
+  padding: 50px 0px;
+  background: #e11e26;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .emptyBox2{
+    padding: 150px 0px;
+  }
+  .emptyBox1{
+    background: white;
+  }
+  
+  
+  form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: block;
+    margin-top: 20px;
+    align-items: center;
+    padding: 0px 200px;
+  }
+  form input {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+  }
+  form button {
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-weight: 800;
+    background-color: #e11e26;
+    border: none;
+  }
+  
+  form button:hover{
+    background-color: white;
+    color: #e11e26;
+    border: .5px solid #e11e26;
+  }
+  form button:hover i{
+    color: #e11e26;
+  }
+  
+  form button,
+  form input{
+      width: 80%;
+      margin-top: 10px;
+      border: 1px solid #e11e26;
+  }
+  
+  form button {
+      border: 1px solid white;
+  }
+  
+  .FooterSection{
+    margin-top: 150px;
+    
+   
+  }
+  
+  .location,
+  .email,
+  .phone{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    background-color: #e11e26 ;
+    color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  ul li{
+    margin: 10px 0;
+  }
+  ul li a{
+    color: black;
+  }
+  .ContactInformatin ul li a{
+   font-size: 15px;
+   margin-left: 10px;
+  
+  }
+  hr{
+      width: 100%;
+      height: 5px;
+      background: gray;
+      margin: 20px 0px,
+  }
+  .copy{
+      text-align: center;
+      margin: 8px auto;
+  }
+  
+  
